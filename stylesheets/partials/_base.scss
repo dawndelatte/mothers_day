@@ -1,10 +1,38 @@
 .wrapper {max-width: 900px; width: 90%; margin: 0 auto;}
 
 .illustration {
-	margin-top: 4em;
+	margin-top: 2em;
 	img {max-width: 100%;}
 
 }
+
+.indicator{
+  position: absolute;
+  left:calc(50% - 24pt);
+  top: calc(40% -350pt);
+  width: 48pt;
+  height: 48pt;
+  border-radius: 100%;
+  box-shadow: 0 0 0 5px transparent;
+  div{
+  	color:rgb(48,38,28);
+    font-size: 48pt;
+    position: absolute;
+    left: calc(50% - 12pt);
+    top: calc(50% - 24pt);
+    transform: rotate(-90deg) scale(1);
+    margin: 0 auto;
+    padding:0;
+    animation: scroll 1.4s ease-in-out infinite;
+    -webkit-animation: scroll 1.4s ease-in-out infinite;
+    -moz-animation: scroll 1.4s ease-in-out infinite;
+        opacity: 1;
+    &:nth-child(1){
+          top: calc(50% - 14pt);
+    }
+  }
+}
+
 
 .bouquet {
 	text-align: center;
@@ -16,10 +44,27 @@
 }
 }
 .note {
-	margin: 5em 0;
+	margin-top: 12em;
+	margin-bottom: 2em;
 	padding: 3em;
 
 	h1 {
 		padding-bottom: .5em;
 	}
+}
+
+@-webkit-keyframes scroll{
+  50%{
+    top: calc(50%);
+    opacity: 0;
+    transform: rotate(-90deg) scale(1.5);
+  }
+}
+
+@-moz-keyframes scroll{
+  50%{
+    top: calc(50%);
+    opacity: 0;
+    transform: rotate(-90deg) scale(1.5);
+  }
 }

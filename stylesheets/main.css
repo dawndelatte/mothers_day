@@ -52,10 +52,11 @@ p, h1, h2 {
   color: #30261c; }
 
 p {
-  font-family: "hypatia-sans-pro", sans-serif;
+  font-family: "proxima-nova-alt", sans-serif;
   font-size: 1.5em;
-  line-height: 1.6;
-  padding-bottom: 2em; }
+  line-height: 1.75;
+  padding-bottom: 2em;
+  font-weight: 300; }
 
 h1 {
   font-family: "coquette", serif;
@@ -78,6 +79,15 @@ h2 {
   margin-top: 4em; }
   .illustration img {
     max-width: 100%; }
+
+.bouquet {
+  text-align: center; }
+  .bouquet img {
+    width: 200px;
+    height: 200px; }
+    .bouquet img p {
+      padding-top: 1em;
+      padding-left: 1em; }
 
 .note {
   margin: 5em 0;

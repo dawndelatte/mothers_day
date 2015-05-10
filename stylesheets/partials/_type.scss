@@ -1,1 +1,8 @@
-h1 {color: red;}
+
+$primary: "hypatia-sans-pro",sans-serif;
+$head: "coquette",fantasy;
+
+p {font-family: $primary; font-size: 1.5em; line-height: 1.6; padding-bottom: 2em;}
+
+h1 {font-family: $head; font-weight: 300; font-size: 4em; line-height: 1.5; }
+h2 {font-family: $head; font-weight: 300; font-size: 3em; line-height: 1.5;}

@@ -45,17 +45,44 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.note {
+  background-color: #E1E2C7; }
+
+p, h1, h2 {
+  color: #30261c; }
+
+p {
+  font-family: "hypatia-sans-pro", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.6;
+  padding-bottom: 2em; }
+
 h1 {
-  color: red; }
+  font-family: "coquette", fantasy;
+  font-weight: 300;
+  font-size: 4em;
+  line-height: 1.5; }
+
+h2 {
+  font-family: "coquette", fantasy;
+  font-weight: 300;
+  font-size: 3em;
+  line-height: 1.5; }
 
 .wrapper {
-  max-width: 900px; }
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto; }
 
 .illustration {
-  background-image: url(../assets/mothers_day.svg);
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 800px;
-  margin: 0 auto; }
+  margin-top: 4em; }
+  .illustration img {
+    max-width: 100%; }
+
+.note {
+  margin: 5em 0;
+  padding: 3em; }
+  .note h1 {
+    padding-bottom: .5em; }
 
 /*# sourceMappingURL=main.css.map */
